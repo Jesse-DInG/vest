@@ -1,2 +1,1 @@
-console.log('background.js');
-alert('test');
+window.console.log('background.js');
