@@ -4,18 +4,9 @@
             <input />
         </div>
         <ul>
-            <CaseItemView v-for="item in caseList"></CaseItemView>
+            <CaseItemView v-for="item in caseList" :key="item"></CaseItemView>
         </ul>
     </div>
 </template>
-<script>
-    import CaseItemView from './CaseItemView'
-    export default {
-        data(){
-            caseList:[1,1,1,1]
-        },
-        components:{
-            CaseItemView
-        }
-    }
+<script lang="ts" src="./CaseListView.ts">
 </script>

@@ -1,24 +1,20 @@
 <template>
-    <div class="app">
-        <SuiteListView>
-        </SuiteListView>
-        <div>
-            <div class="left-view">
-            <CaseListView></CaseListView>
+    <div id="app">
+        <suite-list-view>
+        </suite-list-view>
+        <div class="row show-grid">
+            <div class="left-view col-md-6">
+                <CaseListView></CaseListView>
             </div>
-            <div class="left-view">
-            <CaseListView></CaseListView>
+            <div class="left-view col-md-6">
+                <CaseListView></CaseListView>
             </div>
         </div>
     </div>
 </template>
-<script>
-    import SuiteListView from './SuiteListView'
-    import CaseListView from './case/CaseListView'
-    export default {
-        components:{
-            SuiteListView,
-            CaseListView
-        }
+<script lang="ts" src="./app.ts"></script>
+<<style lang="less">
+    html{
+        width:500px;
     }
-</script>
+</style>
