@@ -6,7 +6,6 @@ import CaseItemView from './CaseItemView.vue';
         CaseItemView,
     },
 })
-class CaseListView extends Vue {
+export default class CaseListView extends Vue {
     caseList: number[] = [1, 2, 3, 4];
 }
-export default CaseListView;

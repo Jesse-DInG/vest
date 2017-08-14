@@ -10,11 +10,13 @@
     },
     "dependencies": {
         "@types/node": "^8.0.20",
+        "bootstrap": "4.0.0-beta",
         "copy-webpack-plugin": "^4.0.1",
         "css-loader": "^0.28.4",
         "friendly-errors-webpack-plugin": "^1.6.1",
         "less": "^2.7.2",
         "less-loader": "^4.0.5",
+        "style-loader": "^0.18.2",
         "ts-loader": "^2.3.2",
         "tslint-config-airbnb": "^5.2.1",
         "tslint-loader": "^3.5.3",

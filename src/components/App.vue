@@ -10,11 +10,10 @@
                 <CaseListView></CaseListView>
             </div>
         </div>
+        <progressBar></progressBar>
     </div>
 </template>
 <script lang="ts" src="./app.ts"></script>
 <<style lang="less">
-    html{
-        width:500px;
-    }
+
 </style>
